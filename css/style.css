@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a.navbar-brand{
+    width: 45px;
+    height: 45px;
+    color:#ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    font-weight: 600;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+.img-map{
+    width: 500px;
+    height: 208px;
+}
+
+.img-user{
+    width: 250px;
+    height: 255px ;
+}
+
+p.normal-text,h4.normal-text{
+    color: rgba(0,0,0,0.8);
+}
+
+a.btn{
+    text-transform: uppercase;
+}
+
+button[type="submit"]{
+    text-transform: uppercase;
+}
+
+div.donor-response-create h4,
+div.donor-response-update h4,
+div.donor-profile-update h4,
+div.donation-create h4,
+div.donation-update h4{
+    margin-left: 283px;
+    color:rgba(0,0,0,0.8);
+}
